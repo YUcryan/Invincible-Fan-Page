@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #222;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 4rem;
+    background: #333;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero .btn {
+    padding: 0.5rem 1rem;
+    background: #f7c445;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Characters Section */
+#characters {
+    padding: 2rem;
+}
+
+.character-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    background: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+}
